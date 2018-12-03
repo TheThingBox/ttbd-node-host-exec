@@ -1,0 +1,6 @@
+{
+    "host-exec": {
+        "command": "Commande",
+        "name": "Nom"
+    }
+}

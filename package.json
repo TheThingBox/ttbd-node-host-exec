@@ -1,0 +1,21 @@
+{
+  "name": "ttbd-node-host-exec",
+  "version": "0.0.1",
+  "description": "This node execute command from container to the host on a TheThingBox environment.",
+  "node-red": {
+    "nodes": {
+      "host-exec": "host-exec.js"
+    }
+  },
+  "keywords": [
+    "node-red",
+    "TheThingBox"
+  ],
+  "dependencies": {
+    "ttbd-exec": "TheThingBox/ttbd-exec#8595423",
+    "mustache": "2.3.0",
+    "is-utf8": "0.2.1"
+  },
+  "author": "http://www.digitalairways.com/",
+  "license": "http://www.wtfpl.net"
+}
