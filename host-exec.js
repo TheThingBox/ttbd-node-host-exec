@@ -46,7 +46,7 @@ module.exports = function(RED) {
       }
       exec(command, exec_opt, (err, stdout, stderr) => {
         /**** STDOUT ****/
-        if(stdout){
+        if(stdout !== undefined && stdout !== null){
           if (isUtf8(stdout)){
             msg.payload = stdout.toString();
           }
